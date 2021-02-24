@@ -1,0 +1,502 @@
+/*
+PC-98 Sci-fi Theme
+Read on if you'd like, I've included comments for customization. Also, the whole theme might look better if you zoom in or out, depending. 
+*/
+ 
+ 
+/* Multiple backgrounds setup. 
+I don't know how this works, ok? It's just magic.
+*/
+@keyframes test {
+  0% {
+    background-image: url('https://i.imgur.com/Tcz5Eiw.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  10% {
+    background-image: url('https://i.imgur.com/Tcz5Eiw.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  10.1% {
+    background-image: url('https://i.imgur.com/kFGV0rv.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  20% {
+    background-image: url('https://i.imgur.com/kFGV0rv.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  20.1% {
+    background-image: url('https://i.imgur.com/z2y85Bq.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  30% {
+    background-image: url('https://i.imgur.com/z2y85Bq.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  30.1% {
+    background-image: url('https://i.imgur.com/8KTy86x.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  40% {
+    background-image: url('https://i.imgur.com/8KTy86x.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  40.1% {
+    background-image: url('https://i.imgur.com/EpIYl60.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  50% {
+    background-image: url('https://i.imgur.com/EpIYl60.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  50.1% {
+    background-image: url('https://i.imgur.com/U4526cB.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  60% {
+    background-image: url('https://i.imgur.com/U4526cB.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  60.1% {
+    background-image: url('https://i.imgur.com/QNjZRde.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  70% {
+    background-image: url('https://i.imgur.com/QNjZRde.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  70.1% {
+    background-image: url('https://i.imgur.com/AKuX6ZI.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  80% {
+    background-image: url('https://i.imgur.com/AKuX6ZI.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  80.1% {
+    background-image: url('https://i.imgur.com/xjImJsL.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  90% {
+    background-image: url('https://i.imgur.com/xjImJsL.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  90.1% {
+    background-image: url('https://i.imgur.com/9NklUqi.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  99.9% {
+    background-image: url('https://i.imgur.com/9NklUqi.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+  100% {
+    background-image: url('https://i.imgur.com/Tcz5Eiw.png');
+      image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+  }
+}
+/* Text */
+* {
+    font-family: PC-9800, CyberpunkWaifus, Arial !important; /* Priority is the first font, the other two are just fallbacks. Install the font here and then restart your browser: https://retro-type.com/PC98/font/pc-9800.ttf */
+    color: #fff !important;
+        text-shadow: -2px 2px 0 #000, 2px 2px 0 #000, 2px -2px 0 #000, -2px -2px 0 #000, -2px 1px 0 #000, 2px 1px 0 #000, 2px -1px 0 #000, -2px -1px 0 #000, -1px 2px 0 #000, 1px 2px 0 #000, 1px -2px 0 #000, -1px -2px 0 #000;
+}
+ 
+/*Background image of the whole page.*/
+.css-1dbjc4n.r-13awgt0.r-1udh08x.r-12vffkv[style*="background-color"] {
+    background-image: url(https://i.imgur.com/4DVORwz.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    image-rendering: -moz-crisp-edges; /* Comment out this line if you aren't using pixel art. */
+    image-rendering: pixelated;
+ 
+    background-position: center;
+    /* ----> Background position. Other options: top, right, bottom, left */
+}
+ 
+.css-1dbjc4n.r-1p0dtai.r-u8s1d.r-ipm5af.r-417010[style*="background-color"] {
+    background-color: rgba(0, 0, 0, .7) !important;
+    color: black !important;
+}
+ 
+ 
+/*
+AVATAR AVATAR AVATAR (THAT PART OF THE THEME WITH THE GIRL ON THE SCREEN)
+Customization:
+The avatar template can be found here:
+https://i.imgur.com/lnAJETC.png
+The dimensions are 250 x 278. You are not required to use this, and you can also use another resolution, but you may have to tinker with the settings a little.
+Just delete or comment out the whole thing if you don't want an avatar.
+*/
+div.css-1dbjc4n.r-150rngu.r-eqz5dr.r-16y2uox.r-1wbh5a2.r-11yh6sk.r-1rnoaur.r-1sncvnh.r-13qz1uu[style="display: flex; max-height: 110px; overflow: auto;"] {
+    background-image:  url(https://i.imgur.com/uupJom5.gif) !important; /*Avatar goes here */
+    background-position: 98% 72%; /* This is what decides where the avatar goes on the screen. Left percentage is left (0%) to right (100%), right percentage is bottom (100%) to top (0%). If you need to, you can go over 100% and past the screen. You may want to adjust this because the avatar may be covered by the text enter area at smaller resolutions.*/
+    background-size: 250px 278px; /* Change this value (width x height) for size of avatar */
+    image-rendering: pixelated; /* Comment out this line if you aren't using pixel art. */
+    max-width: 500000px;
+    max-height: 9000% !important;
+    width: 100% !important;
+    height: 8000%;
+    left: 60px !important; /* If your avatar gets cut off for whatever reason, tinker with the left/right/bottom/top options. */
+    right: 60px !important;
+    bottom: 0px;
+    background-repeat: no-repeat;
+    position: absolute;
+    overflow: visible !important;
+    padding-right: 500px;
+    z-index: 1 !important;
+    background-attachment: fixed !important;
+}
+ 
+/* This is stuff that affects the content text. */
+span {
+    line-height: 1.5 !important;
+}
+ 
+.css-901oao {
+    white-space: pre-line !important;
+}
+ 
+	.r-13awgt0.r-1sncvnh .r-16y2uox {
+		margin-right: 1rem !important;
+        margin-left: 1rem !important;
+	}
+ 
+/*Code for altering the undo, redo, etc. button style and placement */
+.css-1dbjc4n.r-18u37iz[style="display: flex; flex-wrap: wrap; justify-content: flex-start; margin-top: 4px; -moz-box-pack: start;"] {
+    width: 3%;
+    position: absolute;
+    height: 0%;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    flex-direction: row;
+    bottom: 670px;
+}
+ 
+.css-1dbjc4n.r-18u37iz[style="display: flex; flex-wrap: wrap; justify-content: flex-start; margin-top: 4px; -webkit-box-pack: start;"] {
+    width: 3%;
+    position: absolute;
+    height: 0%;
+    -webkit-box-direction: normal;
+    -webkit-box-orient: vertical;
+    -moz-box-direction: normal;
+    -moz-box-orient: vertical;
+    flex-direction: row;
+    bottom: 670px;
+}
+ 
+/*Code for altering the undo, redo, etc. button style and placement */
+div[style*="border-radius: 10px; display: flex; margin-right: 8px; padding: 8px;"] {
+    width: 32px;
+    border-radius: 13px !important;
+    border: 3.5px;
+    border-style: solid;
+    margin-bottom: 3px;
+    border-color: black !important;
+}
+ 
+/*Changes text size of the energy bar, accidentally changes the menu text too but whatever man */
+.css-901oao[style*="color: rgb(255, 255, 255); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px"] {
+    font-size: 28px !important;
+}
+/*transparency of the top bar that helps with visibility of menu items*/
+.css-1dbjc4n.r-1awozwy.r-13awgt0.r-18u37iz.r-1777fci.r-12vffkv {
+    background-color: #00000047 !important;
+}
+ 
+/* Border around the main content */
+div.r-13awgt0.r-1sncvnh.r-16y2uox {
+    border-style: solid;
+    border-width: 80px 90px;
+    background-image: url("https://i.imgur.com/4thkNXm.png");
+    background-color: #000 !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+        animation-name: test;
+    animation-duration: 1000s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    border-image: url(https://files.catbox.moe/w0qtgc.png) 64 stretch;
+    image-rendering: pixelated;
+    padding-bottom: 0px;
+    margin-right: 240px; /*This is here to make way for the avatar. If you've removed that then delete or comment this line out. */
+    margin-bottom: 130px;
+    margin-left: 50px;
+    z-index: 1;
+}
+ 
+ 
+.css-1dbjc4n.r-k200y[style="display: flex; margin-top: 64px;"] {
+    margin-bottom: 160px !important;
+}
+ 
+/*border around the text enter area and positioning of the whole thing. */
+ 
+div.css-1dbjc4n.r-13awgt0[style*="border-radius: 8px; border-width: 1.5px; display: flex; margin-right: 8px;"] {
+    border-style: solid;
+    border-width: 60px 70px !important;
+    background-color: #003366 !important;
+    border-image: url(https://i.imgur.com/z2Ucqd4.png) 50 stretch;
+    image-rendering: pixelated;
+    width: 90% !important;
+    height: 160px !important;
+    position: absolute;
+    top: -140px;
+    bottom: 600px;
+    right: 70px;
+    left: 70px;
+ 
+}
+/*border around text enter area when in edit mode */
+div.css-1dbjc4n.r-13qz1uu[style="display: flex; min-height: 200px;"] {
+    border-style: solid;
+    border-width: 60px 70px !important;
+    background-color: #003366 !important;
+    border-image: url(https://i.imgur.com/z2Ucqd4.png) 50 stretch;
+    bottom: 0px;
+    height: 300px;
+    width: 90% !important;
+    left: 60px;
+    image-rendering: pixelated;
+}
+ 
+/* Border for pin section. Sucks, I know */
+div.css-1dbjc4n.r-13qz1uu[style="display: flex; min-height: 250px;"] {
+    border-style: solid;
+    border-width: 60px 70px !important;
+    background-color: #003366 !important;
+    border-image: url(https://i.imgur.com/z2Ucqd4.png) 50 stretch;
+    bottom: 0px;
+    height: 300px;
+    width: 90% !important;
+    left: 60px;
+    image-rendering: pixelated;
+}
+ 
+/* Makes the text enter area bigger */
+textarea.css-11aywtz.r-13awgt0.r-snp9zz[style*="border-radius: 5px; color: rgb(255, 255, 255); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; margin-left: 4px; padding: 8px; vertical-align: top;"] {
+    overflow: auto !important;
+    min-height: 80px;
+    margin-top: -40px !important;
+    margin-bottom: -20px !important;
+    margin-left: 4px !important;
+}
+ 
+textarea.css-11aywtz.r-13awgt0.r-snp9zz[style*="border-radius: 5px; color: rgb(224, 224, 224); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; margin-left: 4px; padding: 8px; vertical-align: top;"] {
+    overflow: auto !important;
+    min-height: 80px;
+    margin-top: -40px !important;
+    margin-bottom: -20px !important;
+    margin-left: 4px !important;
+}
+ 
+textarea.css-11aywtz.r-13awgt0.r-1ms1frn[style*="background-color: rgb(218, 218, 218); border-radius: 5px; color: rgb(18, 18, 18); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; margin-left: 4px; padding: 8px; vertical-align: top;"] {
+    overflow: auto !important;
+    min-height: 80px;
+    margin-top: -40px !important;
+    margin-bottom: -20px !important;
+    margin-left: 4px !important;
+}
+ 
+/* Makes edit text enter area bigger */
+textarea.css-11aywtz.r-13awgt0.r-snp9zz[style*="border-radius: 8px; border-width: 1.5px; font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; height: 150px; padding: 8px; vertical-align: top;"] {
+    overflow: auto !important;
+    min-height: 10px;
+    margin-top: -55px !important;
+    margin-bottom: -18px !important;
+    margin-left: 4px !important;
+    border-style: hidden;
+}
+ 
+textarea.css-11aywtz.r-13awgt0.r-snp9zz[style*="border-radius: 8px; border-width: 1.5px; display: flex; margin-left: 8px; margin-right: 4px;"] {
+    overflow: auto !important;
+    min-height: 10px;
+    margin-top: -55px !important;
+    margin-bottom: -18px !important;
+    margin-left: 4px !important;
+    border-style: hidden;
+}
+ 
+textarea.css-11aywtz.r-13awgt0.r-snp9zz[style*="background-color: rgb(59, 59, 59); border-radius: 5px; color: rgb(224, 224, 224); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; padding: 8px; vertical-align: top;"] {
+    overflow: auto !important;
+    min-height: 10px;
+    margin-top: -55px !important;
+    margin-bottom: -18px !important;
+    margin-left: 4px !important;
+    border-style: hidden;
+}
+ 
+textarea.css-11aywtz.r-13awgt0.r-1ms1frn[style*="border-radius: 5px; color: rgb(18, 18, 18); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; padding: 8px; vertical-align: top;"] {
+    overflow: auto !important;
+    min-height: 10px;
+    margin-top: -55px !important;
+    margin-bottom: -18px !important;
+    margin-left: 4px !important;
+    border-style: hidden;
+}
+ 
+/* Makes pin text enter area bigger */
+textarea.css-11aywtz.r-13awgt0.r-snp9zz[style*="border-radius: 5px; color: rgb(255, 255, 255); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; padding: 8px; vertical-align: top;"] {
+    overflow: auto !important;
+    min-height: 10px;
+    margin-top: -35px !important;
+        border-style: hidden !important;
+    background-color: transparent !important;
+    margin-left: 4px !important;
+}
+ 
+/* Move the text box a little more to the left */
+div.css-1dbjc4n[style="align-self: center;background-image: linear-gradient(1.5708rad, rgb(255, 191, 0), rgb(255, 191, 0));border-radius: 5px;height: 30px;margin-left: 0px;width: auto;"] {
+    margin-left: 0px !important;
+}
+ 
+/* Affects the text that says 'What do you do?' before you type anything */
+::placeholder {
+    color: #fff !important;
+}
+ 
+/* Making borders invisible */
+.css-1dbjc4n.r-13awgt0.r-18u37iz[style="border-color: rgb(34, 34, 34); border-radius: 8px; border-width: 1.5px; display: flex; margin-left: 8px; margin-right: 4px;"] {
+    height: 100px !important;
+    bottom: 20px;
+    border-style: hidden;
+    background-color: transparent;
+}
+ 
+.css-1dbjc4n.r-13awgt0.r-18u37iz[style="border-color: rgb(34, 34, 34); border-radius: 8px; border-width: 1.5px; color: rgb(255, 255, 255); font-family: HelveticaNeue-Light, Helvetica, sans-serif, Classic, Alegreya-Regular; font-size: 20px; height: 150px; padding: 8px; vertical-align: top;"] {
+    height: 100px !important;
+    bottom: 20px;
+    border-style: hidden;
+    background-color: transparent;
+}
+ 
+.css-1dbjc4n.r-13awgt0.r-18u37iz[style="background-color: rgb(59, 59, 59); border-color: rgb(34, 34, 34); border-radius: 8px; border-width: 1.5px; display: flex; flex: 0.4 1 0%; margin-left: 8px; margin-right: 4px; margin-top: 32px;"] {
+    height: 100px !important;
+    bottom: 20px;
+    border-style: hidden !important;
+    background-color: transparent;
+}
+ 
+div.css-1dbjc4n.r-18u37iz[style="align-items: flex-end; display: flex; justify-content: flex-end; -moz-box-align: end; -moz-box-pack: end;"] {
+    bottom: 42px;
+    left: 30px;
+    border-style: hidden;
+    background-color: transparent;
+}
+ 
+div.css-1dbjc4n.r-18u37iz[style="align-items: flex-end; display: flex; justify-content: flex-end; -webkit-box-align: end; -webkit-box-pack: end;"] {
+    bottom: 42px;
+    left: 30px;
+    border-style: hidden;
+    background-color: transparent;
+}
+ 
+.css-1dbjc4n.r-18u37iz[style="border-color: rgb(34, 34, 34); border-radius: 8px; border-width: 1.5px; display: flex; flex: 0.4 1 0%; margin-left: 8px; margin-right: 4px; margin-top: 32px;"] {
+        border-style: hidden;
+    background-color: transparent;
+}
+ 
+ 
+ 
+/*forgot what this does */
+.css-1dbjc4n.r-13awgt0[style="background-color: rgb(59, 59, 59); border-color: rgb(34, 34, 34); border-radius: 8px; border-width: 1.5px; display: flex; margin-right: 8px;"] {
+border-style: hidden
+}
+ 
+/*forgot wtf this is?*/
+.css-1dbjc4n.r-18u37iz.r-13qz1uu{
+    z-index: 8 !important;
+}
+ 
+ 
+ 
+ 
+.r-eqz5dr[style*="background-color"] {
+    background-color: rgba(0, 0, 0, 0) !important;
+    border-width: 0px 0px !important;
+    border-image: none !important;
+    background-image: url(none) !important;
+    margin-right: 0px !important;
+}
+ 
+/* Buttons */
+div[style*="border-radius: 10px; justify-content: flex-start; margin: 2px 5px; padding: 8px;"],
+div[style*="border-radius: 5px; height: 30px; width: auto;"],
+.css-1dbjc4n[style*="background-image: linear-gradient"] {
+    background-color: #1a5f93 !important;
+    /* ----> Changes the background color of the in-game buttons (And also the "Continue" button) */
+    background-image: none !important;
+    /* ----> Removes the gradient from the do/say/story button */
+}
+ 
+div[style*="max-width: 450px;"] {
+    background-color: #28485a !important;
+    /* ----> Changes the background color of the main menu buttons (Except for "Continue" button which inherents background color from above) */
+}
+ 
+ 
+/* Scrollbar styling (Chromium only) */
+*::-webkit-scrollbar {
+    width: 6px !important;
+    /* ----> Scrollbar width in pixels */
+}
+*::-webkit-scrollbar-track {
+    background: #0000007d !important;
+    /* ----> Scrollbar track color */
+}
+*::-webkit-scrollbar-thumb {
+    background: #133770 !important;
+    /* ----> Scrollbar color */
+}
+*::-webkit-scrollbar-thumb:active {
+    background: #081447 !important;
+    /* ----> Scrollbar color while in use */
+}
+ 
+.css-1dbjc4n.r-13awgt0[style*="padding-right"] {
+    padding-right: 0px !important;
+    /* ----> Removes some padding so the scrollbar is on the edge of the window instead of floating 90 pixels off the edge. */
+}
+ 
+/* right sidebar */
+.r-1pi2tsx.css-1dbjc4n[style*="width: 256px; z-index: 101;"] {
+    background-color: #204e59cf !important;
+}
+ 
+/* misc colors */
+*[style*="background-color: rgb(59, 59, 59)"] {
+    background-color: #278 !important;
+    /* ----> Replaces all the grey colors (Setting buttons, My stuff/Explore buttons and search bar, maybe some more stuff) */
+}
+ 
+*[style*="background-color: rgb(0, 150, 136)"] {
+    background-color: #454138 !important;
+    /* ----> Replaces the settings toggle button colors */
+}
+ 
+*[style*="background-color: rgb(163, 211, 207)"] {
+    background-color: #0000006b !important;
+    /* ----> Replaces the settings toggle button bar colors */
+}
+ 
+/* Don't touch these */
+div[style*="border-radius: 5px; height: 30px; width: auto;"] {
+    background-color: #d0818100 !important;
+}
+ 
+*[style*="font-family: MaterialCommunityIcons"] {
+    font-family: "MaterialCommunityIcons" !important;
+}
+ 
+*[style*="FontAwesome"] {
+    font-family: "FontAwesome" !important;
+}
+ 
+.r-13awgt0 {
+    background-color: #a4555500 !important;
+}
+ 
+.r-eqz5dr {
+    background-color: #f2606000 !important;
+}
